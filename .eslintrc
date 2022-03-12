@@ -11,9 +11,10 @@
       "jsx": true
     }
   },
-  "extends": ["airbnb-base", "plugin:react/recommended", "next/core-web-vitals"],
+  "extends": ["airbnb-base", "plugin:react/recommended"],
   "plugins": ["react"],
   "rules": {
+    "linebreak-style": 0,
     "no-unused-vars": "warn",
     "no-console": "off",
     "arrow-body-style": "off",
